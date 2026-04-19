@@ -93,8 +93,9 @@ window.addEventListener('keyup', (event) => {
 function createTouchController() {
     const touchPad = document.createElement('div');
     touchPad.style.position = 'fixed';
-    touchPad.style.left = '16px';
+    touchPad.style.left = '50%';
     touchPad.style.bottom = '16px';
+    touchPad.style.transform = 'translateX(-50%)';
     touchPad.style.width = '168px';
     touchPad.style.height = '168px';
     touchPad.style.display = 'grid';
